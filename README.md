@@ -5,7 +5,9 @@
 
 ### Results:
 The trained system predicted stock movements with accuracy up to 74 percent. I found that Random Forest classifier when used along with 1-gram feature extraction technique on a time period of 1 day has given the best overall accuracy. 
+
 ![results](Images/results.jpg)
+
 Then, I proceeded to extract the top 10 reliable news sources from the given data set and found that morningstar.com data set resulted in the best accuracy when tested on the 1-gram SVM model.
 
 ### Steps performed:
