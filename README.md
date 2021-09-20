@@ -3,7 +3,7 @@
 ##### In this project, I trained a bidirectional stock price prediction system based on financial corpus consisting of about 90,000 news articles for Apple and Amazon stocks. I ran multiple different experiments with two separate time periods (1 day and 4 hours) to see which combinations of time period, feature extraction and selection techniques has the highest prediction accuracy. 
 ##### After that, I compared the various models based on parameters like accuracy and F1 score to find out the best model that predicts the correct directional stock value. I scraped news articles from viral tweets and used them as input to validate the model.
 
-### Results:
+### Result:
 The trained system predicted stock movements with accuracy up to 74 percent. I found that Random Forest classifier when used along with 1-gram feature extraction technique on a time period of 1 day has given the best overall accuracy. 
 
 ![results](Images/results.jpg)
@@ -17,7 +17,7 @@ Then, I proceeded to extract the top 10 reliable news sources from the given dat
 - **Model Training** - Train machine learning models using the classifiers - SVM using ThunderSVM library, Decision Tree, Logistic Regression, Random Forest using XGBoost and ANN (Artificial Neural Network).
 - **Prediction** - Output +1 or -1 as direction of stock price based on whether the price may increase or decrease respectively.
 
-#### System architecture:
+### System architecture:
 ![system architecure](Images/architecture.jpg)
 
 ### Replication steps:
