@@ -1,10 +1,10 @@
 ## Bidirectional stock prediction using News and Twitter analysis
 
-##### In this project, I trained a bidirectional stock price prediction system based on financial corpus consisting of about 90,000 news articles for Apple and Amazon stocks. I ran multiple different experiments with two separate time periods (1 day and 4 hours) to see which combinations of time period, feature extraction and selection techniques has the highest prediction accuracy. 
+##### In this project, I trained a bidirectional stock price prediction system based on financial corpus consisting of about 10 years worth 8k Analyst report data (around 8 GB) news articles for Apple and Amazon stocks. I ran multiple different experiments with two separate time periods (1 day and 4 hours) to see which combinations of time period, feature extraction and selection techniques has the highest prediction accuracy. 
 ##### After that, I compared the various models based on parameters like accuracy and F1 score to find out the best model that predicts the correct directional stock value. I scraped news articles from viral tweets and used them as input to validate the model.
 
 ### Result:
-The trained system predicted stock movements with accuracy up to 74 percent. I found that Random Forest classifier when used along with 1-gram feature extraction technique on a time period of 1 day has given the best overall accuracy. 
+The trained system predicted stock movements with accuracy up to 76 percent. I found that Random Forest classifier when used along with 1-gram feature extraction technique on a time period of 1 day has given the best overall accuracy. 
 
 ![results](Images/results.jpg)
 
